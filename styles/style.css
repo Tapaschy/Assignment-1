@@ -1,0 +1,129 @@
+/* For all site style */
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header style */
+.header{
+    background-image:url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-content{
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+    width: 525px;
+    margin-bottom: 266px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top:20px;
+}
+.primary-button{
+    color: #005FAC;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+    margin-top: 32px;
+
+}
+
+/* Main content  styles*/
+.main-content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section styles */
+.section-margin{
+    margin-top: 130px;
+}
+
+/* failure section */
+.failure-previous{
+    display: flex;
+    justify-content: flex-end;
+    gap: 87px;
+}
+.failure-content{
+    width: 415px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color:#151414;
+    padding-top: 370px;
+    margin-bottom: 24px;
+}
+.failure-desciption{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+.failure-list{
+    list-style: none;
+    padding-left: 0px;
+}
+.failure-list span{
+    color:green;
+}
+
+/* My Plan styles */
+.myplan{
+    text-align: center;
+}
+.myplan-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plan-content{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.item-name{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.item-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Mindset style */
+.positive-mindset{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(1, 95, 172,1)),url('../images/watch.png');
+    background-size: cover;
+    padding-left: 60px;
+    border-radius: 10px;
+}
+.mindset-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    width: 450px;
+}
+.positive-mindset>.primary-button{
+    margin-bottom: 60px;
+}
