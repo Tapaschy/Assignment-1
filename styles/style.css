@@ -57,7 +57,7 @@
 .failure-previous{
     display: flex;
     justify-content: flex-end;
-    gap: 87px;
+    gap: 187px;
 }
 .failure-content{
     width: 415px;
@@ -201,9 +201,16 @@
 
 .sub-email{
     padding: 20px 130px 20px 20px;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
+    background-color: #151414;
+}
+input[type="email"].sub-email::placeholder{
+    color: #FFFFFF;
 }
 .subscribe .primary-button{
     background-color: #005FAC;
     color: #FFFFFF;
 }
+
+/* End styles */
